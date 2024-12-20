@@ -1,0 +1,28 @@
+.view-anchor:hover {
+  color: rgb(94 234 212);
+}
+
+
+
+@media (width>992px) {
+  .show-text-block {
+    display: block;
+    animation: fadeText 0.5s ease-in-out;
+  }
+
+  .hide-text-block {
+    display: none;
+  }
+}
+
+@keyframes fadeText {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
